@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scrumbler</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="blue">#00aff0</color>
+    <color name="red">#db4437</color>
+    <color name="yellow">#FEF200</color>
+    <color name="orange">#f04100</color>
+    <color name="pink">#F40AF5</color>
+    
+
+</resources>
