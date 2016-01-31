@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CountDownTimerView">
+       <attr name="millisInFuture" format="integer"/>
+        <attr name="countDownInterval" format="integer"/>
+       <attr name="displayFormat" format="string"/>
+   </declare-styleable>
+   
+    <declare-styleable name="AnimatedScoreView">
+       <attr name="TextViewCurrent" format="integer"/>
+        <attr name="TextViewNext" format="integer"/>
+   </declare-styleable>
+</resources>

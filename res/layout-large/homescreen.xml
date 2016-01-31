@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackboard_background"
+    android:gravity="center"
+    tools:context="com.example.Scrumber.HomeScreen" >
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="300dip"
+        android:layout_height="300dip"
+        android:layout_above="@+id/play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dip"
+        android:src="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/scores"
+        android:layout_width="320dip"
+        android:layout_height="110dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:padding="0dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/scores"
+        android:text="Scores"
+        android:textColor="@color/yellow" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logoImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:text="@string/app_name"
+        android:textSize="65dip" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="320dip"
+        android:layout_height="110dip"
+        android:layout_above="@+id/scores"
+        android:layout_alignLeft="@+id/scores"
+        android:layout_marginBottom="31dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:padding="0dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/start" />
+
+</RelativeLayout>
